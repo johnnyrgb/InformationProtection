@@ -2,8 +2,8 @@
 {
     static void Main()
     {
-        var grid = CardanoGrid.Encrypt(filePath: "primer.docx", "masque.json");
+        var grid = CardanoGrid.Encrypt(filePath: "iom-16-rus.jpg", "masque");
         Console.WriteLine("");
-        var biba = CardanoGrid.Decrypt(filePath: "primer.docx.bib", "masque.json");
+        var biba = CardanoGrid.Decrypt(filePath: "iom-16-rus.jpg.bib", "masque");
     }
 }

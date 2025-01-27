@@ -90,7 +90,6 @@
                 }
             }
         }
-
         // Записываем файлы маски и зашифрованный
         File.WriteAllBytes(masquePath, masque);
         File.WriteAllBytes(string.Concat(filePath, ".bib"), grid);
