@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         var grid = CardanoGrid.Encrypt(filePath: "primer.docx", "masque.json");
-        zConsole.WriteLine("");
+        Console.WriteLine("");
         var biba = CardanoGrid.Decrypt(filePath: "primer.docx.bib", "masque.json");
     }
 }
