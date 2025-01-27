@@ -1,10 +1,6 @@
-﻿using System.Diagnostics;
-using System.Text;
-using System.Text.Json;
-
-public static class CardanoGrid
-{  
-public static bool Encrypt(string filePath, string masquePath)
+﻿public static class CardanoGrid
+{
+    public static bool Encrypt(string filePath, string masquePath)
     {
         // Байты файла
         var fileBytes = File.ReadAllBytes(filePath).ToList();
